@@ -20,9 +20,8 @@ module.exports = function(grunt) {
         eqeqeq: true,
         eqnull: true,
         globals: {
-          require: true,
-          describe: true,
-          it: true
+          module: true,
+          console: true
         }
       },
       files: ['Gruntfile.js', 'test/**/*.js']
